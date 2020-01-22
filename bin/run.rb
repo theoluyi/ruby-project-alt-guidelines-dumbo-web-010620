@@ -1,3 +1,7 @@
 require_relative '../config/environment'
+# require "tty-prompt"
+# require "tty-font"
+# require "colorize"
 
-puts "hello world"
+cli = CommandLineInterface.new
+cli.run 
