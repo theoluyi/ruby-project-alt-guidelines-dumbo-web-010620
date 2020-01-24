@@ -158,8 +158,7 @@ class CommandLineInterface
         when "Lets make some money Freelancing!"
             freelancing
             puts "You made money!!!! good job!!! it wasn't the dream job...? but hey, beggars can't be choosers."
-            sleep 1
-            system("clear")
+            sleep 2
             main_story
         when "I'm hungry, lets grab something to eat"
             eat_num = rand(1..5)
