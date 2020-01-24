@@ -13,19 +13,18 @@
 ActiveRecord::Schema.define(version: 2020_01_21_203623) do
 
   create_table "actions", force: :cascade do |t|
-    t.string "name"
-    t.integer "payment"
+    t.string "action_name"
   end
 
   create_table "devs", force: :cascade do |t|
-    t.string "name"
+    t.string "dev_name"
     t.integer "cash"
   end
 
   create_table "results", force: :cascade do |t|
     t.integer "action_id"
     t.integer "dev_id"
-    t.boolean "action_done?"
+    t.integer "payment"
   end
 
 end

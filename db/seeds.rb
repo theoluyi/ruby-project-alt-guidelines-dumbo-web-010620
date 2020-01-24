@@ -1,8 +1,11 @@
+#Destroying all previous DB.
 Action.destroy_all
+Dev.destroy_all
+Result.destroy_all
 
-a1 = Action.create(name: "freelance", payment: 50)
-a2 = Action.create(name: "sell cauliflower", payment: 100)
-a3 = Action.create(name: "go to gym", payment: -5)
+freelance = Action.create(action_name: "Freelance")
+eat_food = Action.create(action_name: "Eat food")
+buy_a_mac = Action.create(action_name: "Buy a Macbook Pro")
 
 ##testing Github ##
 puts "done seeding!"
