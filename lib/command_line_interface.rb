@@ -50,23 +50,23 @@ class CommandLineInterface
     def story_setup  #(THEO)
         name = "#{self.dev.dev_name.capitalize}"
         puts "In the future, there is a broke software developer named #{self.dev.dev_name}..."
-        sleep 1.5
+        sleep 1
         puts "#{self.dev.dev_name} has just graduated from a magically stressful job training program..."
-        sleep 1.5
+        sleep 1
         puts "#{self.dev.dev_name} wants to be somebody, but has no job... no money... and absolutely no game..."
-        sleep 1.5
+        sleep 1
         puts "In order to stop being such a loser and have a real life, #{self.dev.dev_name} will have to..."
-        sleep 1.5
+        sleep 1
         puts "You need to Hustle hard..."
-        sleep 1.5
+        sleep 1
         puts "chuck more wood than a woodchuck.."
-        sleep 1.5
+        sleep 1
         puts "risk everything"
-        sleep 1.5 
+        sleep 1 
         puts "create a CLI app..possibly?"
-        sleep 1.5
-        puts ""
-        sleep 1.5
+        sleep 1
+        puts "well.... anyway..."
+        sleep 1
     end 
 
 
@@ -97,13 +97,13 @@ class CommandLineInterface
 
     def hi_new_person
         puts "Nice to meet you #{self.dev.dev_name}! 🤝"
-        sleep 3
+        sleep 2
         puts "Oh hey.. you just found $#{self.dev.cash} on the floor!"
         puts "....."
         sleep 2
         puts "....."
         sleep 2
-        puts "well? nobody's looking, go pick it up!"
+        puts "well....? nobody's looking, GO PICK IT UP!!"
         sleep 2
         puts "Congrats! now you have $#{self.dev.cash}. Started from the bottom, nothing changed....except this."
     end
@@ -158,7 +158,7 @@ class CommandLineInterface
         when "Lets make some money Freelancing!"
             freelancing
             puts "You made money!!!! good job!!! it wasn't the dream job...? but hey, beggars can't be choosers."
-            sleep 3
+            sleep 1
             system("clear")
             main_story
         when "I'm hungry, lets grab something to eat"
