@@ -1,7 +1,5 @@
 require_relative '../config/environment'
-# require "tty-prompt"
-# require "tty-font"
-# require "colorize"
+ActiveRecord::Base.logger.level = 1 # Disables logging
 
 cli = CommandLineInterface.new
-cli.run 
+cli.rrun 
